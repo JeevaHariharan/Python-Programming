@@ -1,9 +1,7 @@
-testcase=2
-for i in range(2):
-  mystring=raw_input()
-  if(mystring>='a'):
-   print("Alphabet")
-  elif(mystring>='A'):
-   print("Alphabet")
-  else:
-   print("No")
+mystring=raw_input()
+if((mystring>='a') and (mystring<='z')):
+  print("Alphabet")
+elif((mystring>='A') and (mystring<='Z')):
+  print("Alphabet")
+else:
+  print("No")
