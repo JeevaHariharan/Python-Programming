@@ -1,5 +1,4 @@
-a=raw_input()
-b=raw_input()
+a,b=raw_input().split(" ")
 c=len(a)
 d=len(b)
 if (c>d):
