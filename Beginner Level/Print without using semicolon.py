@@ -1,2 +1,2 @@
-a=raw_input()
-print(a)
+string=raw_input()
+print(string)
